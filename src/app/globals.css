@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #0b0f14; color: #edf2f7; }
+a { color: #61dafb; text-decoration: none; }
+.card { background: #10161b; border: 1px solid #1f2a36; border-radius: 12px; padding: 16px; }
+.h1 { font-size: 28px; font-weight: 700; margin: 12px 0 16px; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+.badge { display: inline-block; padding: 2px 8px; background: #0e7a63; border-radius: 999px; font-size: 12px; }
+.button { background: #2b5cff; color: white; padding: 8px 12px; border-radius: 8px; border: none; cursor: pointer; }
+.button:disabled { background: #3a4350; cursor: not-allowed; }
+input, select { background: #0c1218; border: 1px solid #1f2a36; border-radius: 8px; padding: 8px; color: #cbd5e1; }
